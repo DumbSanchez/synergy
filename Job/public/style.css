@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    min-height: 100vh;
+    background: radial-gradient(rgb(173, 133, 31, 0.4), rgb(23, 207, 164, 0.66));
+
+}
+
+.form-box {
+    position: relative;
+    width: 450px;
+    height: 400px;
+    min-height: 100vh;
+    background: rgb(101, 155, 50);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+}
+
+.form-box-about {
+    position: relative;
+    width: 800px;
+    height: 600px;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+fieldset {
+    border-radius: 20px;
+    border: 2px, white;
+    width: 600px;
+    padding: 0 10px 10px 10px;
+    margin: 30px;
+
+}
+
+legend {
+    margin: 5px 20px;
+}
+
+h1 {
+    justify-content: flex;
+    position: relative;
+    text-align: center;
+    color: black;
+    font-size: 32px;
+}
+
+
+.inputbox {
+    position: relative;
+    margin: 30px 0;
+    width: 300px;
+    border-bottom: 2px solid #fff;
+}
+
+.inputbox-about {
+    position: relative;
+    margin: 10px 10px;
+    width: 600px;
+    border-bottom: 2px solid #fff;
+}
+
+
+input::placeholder {
+    color: #000000;
+    font-size: 1em;
+    font-style: italic;
+}
+
+.inputbox label {
+    position: absolute;
+    left: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #fff;
+    font-size: 1em;
+    pointer-events: none;
+}
+
+.inputbox input {
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+}
+
+.inputbox-about input {
+    padding-left: 30px;
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+}
+
+.inputbox ion-icon {
+    position: absolute;
+    right: 5px;
+    top: 18px;
+}
+
+.inputbox-about ion-icon {
+    position: absolute;
+    right: 5px;
+    top: 18px;
+}
+
+.forget {
+    margin: -15px 0 15px;
+    font-size: 1em;
+    display: flex;
+    justify-content: left;
+}
+
+.forget label input {
+    margin-right: 5px;
+}
+
+.forget a {
+    margin-left: 35px;
+    text-decoration: none;
+}
+
+a {
+    color: rgb(16, 22, 222);
+}
+
+a:visited {
+    color: rgb(16, 22, 222);
+}
+
+a:hover {
+    color: #e22b90;
+    text-decoration: none;
+}
+
+button {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    width: 300px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    font-size: 1em;
+}
+
+.button-about {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    align-items: center;
+    font-size: 1em;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    font-size: 1em;
+}
+
+.button-ps {
+    font-family: 'Roboto', sans-serif;
+    ;
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    height: 40px;
+    width: 130px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    font-size: 1em;
+}
+
+
+.message {
+    text-align: left;
+    font-size: 21px;
+    color: (rgb(27, 84, 1));
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+textarea {
+    width: 598px;
+    align-items: center;
+    position: relative;
+    margin: 0px 0px 0px 10px;
+    background: radial-gradient(rgb(173, 133, 31, 0.105), rgb(23, 207, 164, 0.105));
+    /* opacity: .5; */
+    color: black;
+    resize: none;
+
+}
+
+
+.register {
+    margin: 15px 0 15px;
+}
+
+.register a {
+
+    margin-left: 35px;
+    text-decoration: none;
+}
+
+.avto {
+    margin: 15px 0 15px;
+}
+
+.avto a {
+
+
+    text-decoration: none;
+}
+
+a {
+    color: rgb(13, 76, 92);
+    text-decoration: none;
+}
+
+a:visited {
+    color: rgb(16, 22, 222);
+}
+
+a:hover {
+    color: #e22b90;
+    text-decoration: underline;
+
+}
+
+.lohout {
+    color: rgb(173, 16, 16);
+}
+
+li {
+    list-style-type: none;
+}
